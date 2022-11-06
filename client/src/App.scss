@@ -1,4 +1,9 @@
+:root {
+	--bg: rgb(244, 151, 142);
+}
+
 body {
+	background-color: var(--bg);
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
