@@ -1,0 +1,44 @@
+
+:root {
+    --header-color: rgba(0, 0, 0, 1);
+}
+#main-menu-wrapper {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    #main-menu-header {
+        color: var(--header-color);
+        font-size: 2rem;
+        margin: 3rem 0 10rem 0;
+    }
+    /*
+    * Button Styling from: https://enjeck.com/btns/
+    */
+    .btn {
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .btn:hover .btn-slide-show-text1 {  margin-left: 65px; } 
+    .btn-rect-to-round {  
+        height: 55px;  
+        width: 200px;  
+        font-size: 1rem;  
+        font-weight: 600;  
+        background-color: transparent;  
+        cursor: pointer;  
+        transition: all 0.5s ease-in 0s;
+    } 
+    .btn-rect-to-round:hover {  
+        border-radius: 60px;  
+        color: rgb(255, 255, 255) !important;
+    }
+    .btn-rect-to-round--black {  
+        border: 2px solid rgb(51, 51, 51);  
+        color: rgb(51, 51, 51) !important;
+    }
+    .btn-rect-to-round--black:hover {  
+        border-color: rgb(51, 51, 51);  
+        background-color: rgb(51, 51, 51);
+    }  
+    
+}
