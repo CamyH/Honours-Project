@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Game() {
     return (
         <React.Fragment>
-            <h1>Game Page</h1>
+            <h1>Learn SQL Joins</h1>
         </React.Fragment>
     );
 }
