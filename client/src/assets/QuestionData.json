@@ -1,0 +1,46 @@
+{
+    "countryNames": [
+        {
+            "ID": 1,
+            "Name": "United Kingdom"
+        }, 
+        {
+            "ID": 2,
+            "Name": "France"
+        }, 
+        {
+            "ID": 3,
+            "Name": "Belgium"
+        }, 
+        {
+            "ID": 4,
+            "Name": "Luxembourg"
+        }, 
+        {
+            "ID": 5,
+            "Name": "Japan"
+        }
+    ],
+    "airportCodes": [
+        {
+            "ID": 1,
+            "Code": "BHX"
+        },
+        {
+            "ID": 2,
+            "Code": "LAX"
+        },
+        {
+            "ID": 3,
+            "Code": "HND"
+        },
+        {
+            "ID": 4,
+            "Code": "JFK"
+        },
+        {
+            "ID": 5,
+            "Code": "NCE"
+        }
+    ]
+}
