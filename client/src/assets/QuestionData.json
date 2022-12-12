@@ -19,6 +19,10 @@
         {
             "ID": 5,
             "Name": "Japan"
+        },
+        {
+            "ID": 6,
+            "Name": "Germany"
         }
     ],
     "airportCodes": [
@@ -41,6 +45,10 @@
         {
             "ID": 5,
             "Code": "NCE"
+        },
+        {
+            "ID": 6,
+            "Code": "STN"
         }
     ]
 }
