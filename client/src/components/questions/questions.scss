@@ -1,0 +1,8 @@
+.questions-container {
+    display: flex;
+    flex-flow: column;
+    .questions {
+        justify-content: center;
+        text-align: center;
+    }
+}

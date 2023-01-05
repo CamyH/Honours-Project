@@ -1,34 +1,26 @@
-{
-    "questions": [
-        {
-            "Question": 1,
-            "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE airport.airport_code LIKE"
-        }, 
-        {
-            "Question": 2,
-            "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE country LIKE"
-        }, 
-        {
-            "Question": 3,
-            "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE country LIKE"
-        }, 
-        {
-            "ID": 4,
-            "Name": "Luxembourg"
-        }, 
-        {
-            "ID": 5,
-            "Name": "Japan"
-        },
-        {
-            "ID": 6,
-            "Name": "Germany"
-        }
-    ],
-    "answers": [
-        {
-            "Question": 1,
-            "Answer": ""
-        }
-    ]
-}
+[
+    {
+        "Question": 1,
+        "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE airport.airport_code LIKE"
+    }, 
+    {
+        "Question": 2,
+        "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE country LIKE"
+    }, 
+    {
+        "Question": 3,
+        "Content": "SELECT airport.airport_code, table_name.city_name\nFROM airport\nJOIN table_name ON (airport.airport_code=table_name.airport_code)\nWHERE country LIKE"
+    }, 
+    {
+        "Question": 4,
+        "Name": "Luxembourg"
+    }, 
+    {
+        "Question": 5,
+        "Name": "Japan"
+    },
+    {
+        "Question": 6,
+        "Name": "Germany"
+    }
+]
