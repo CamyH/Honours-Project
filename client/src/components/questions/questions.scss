@@ -1,8 +1,20 @@
-.questions-container {
+.content-container {
     display: flex;
     flex-flow: column;
-    .questions {
-        justify-content: center;
-        text-align: center;
+    .question-counter {
+        margin: 0 0 0 2vw;
+    }
+    .questions-container {
+        .questions {
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    .next-question-btn {
+        width: 10vw;
+        height: 4vh;
+        border-radius: 1em;
+        margin: 5% auto auto 80%;
+        cursor: pointer;
     }
 }
