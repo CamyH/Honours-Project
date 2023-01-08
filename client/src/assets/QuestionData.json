@@ -1,54 +1,50 @@
-{
-    "countryNames": [
-        {
-            "ID": 1,
-            "Name": "United Kingdom"
-        }, 
-        {
-            "ID": 2,
-            "Name": "France"
-        }, 
-        {
-            "ID": 3,
-            "Name": "Belgium"
-        }, 
-        {
-            "ID": 4,
-            "Name": "Luxembourg"
-        }, 
-        {
-            "ID": 5,
-            "Name": "Japan"
-        },
-        {
-            "ID": 6,
-            "Name": "Germany"
-        }
-    ],
-    "airportCodes": [
-        {
-            "ID": 1,
-            "Code": "BHX"
-        },
-        {
-            "ID": 2,
-            "Code": "LAX"
-        },
-        {
-            "ID": 3,
-            "Code": "HND"
-        },
-        {
-            "ID": 4,
-            "Code": "JFK"
-        },
-        {
-            "ID": 5,
-            "Code": "NCE"
-        },
-        {
-            "ID": 6,
-            "Code": "STN"
-        }
-    ]
-}
+[
+    {
+        "ID": 1,
+        "Name": "United Kingdom"
+    }, 
+    {
+        "ID": 2,
+        "Name": "France"
+    }, 
+    {
+        "ID": 3,
+        "Name": "Belgium"
+    }, 
+    {
+        "ID": 4,
+        "Name": "Luxembourg"
+    }, 
+    {
+        "ID": 5,
+        "Name": "Japan"
+    },
+    {
+        "ID": 6,
+        "Name": "Germany"
+    },
+    {
+        "ID": 7,
+        "Code": "BHX"
+    },
+    {
+        "ID": 8,
+        "Code": "LAX"
+    },
+    {
+        "ID": 9,
+        "Code": "HND"
+    },
+    {
+        "ID": 10,
+        "Code": "JFK"
+    },
+    {
+        "ID": 11,
+        "Code": "NCE"
+    },
+    {
+        "ID": 12,
+        "Code": "STN"
+    }
+]
