@@ -1,20 +1,32 @@
+:root {
+    --btn-color: rgb(191, 191, 191);
+}
+
 .content-container {
     display: flex;
     flex-flow: column;
+    margin: 0 10% 0 10%;
+    text-align: center;
     .question-counter {
-        margin: 0 0 0 2vw;
+        margin: 0 90% auto auto;
     }
     .questions-container {
         .questions {
-            justify-content: center;
             text-align: center;
+            font-size: 1.5rem;
+            white-space: pre-line;  
+            vertical-align: bottom;
         }
     }
     .next-question-btn {
-        width: 10vw;
+        width: 8vw;
         height: 4vh;
         border-radius: 1em;
         margin: 5% auto auto 80%;
         cursor: pointer;
+        
+    }
+    button {
+        background-color: var(--btn-color);
     }
 }
